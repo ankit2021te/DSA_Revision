@@ -15,8 +15,10 @@ public class SortingAlgorithmPart1 {
     }
 
     private static void printArray(int[] arr){
+        System.out.println();
         for (int a : arr)
             System.out.print(a+" , ");
+        System.out.println();
     }
 
    // Bubble Sort, Selection Sort, or Insertion Sort.
